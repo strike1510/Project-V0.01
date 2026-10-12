@@ -1,17 +1,10 @@
 using UnityEngine;
 
-[DefaultExecutionOrder(0)] // passe AVANT l'aiguille
+[DefaultExecutionOrder(0)]
 public class CompassBodyLock : MonoBehaviour
 {
-    Quaternion lockedRotation;
-
-    void Start()
-    {
-        lockedRotation = transform.rotation;
-    }
-
     void LateUpdate()
     {
-        transform.rotation = lockedRotation;
+        transform.eulerAngles = new Vector3(-90f, 0f, 0f);
     }
 }
