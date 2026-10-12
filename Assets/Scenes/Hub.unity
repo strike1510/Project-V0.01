@@ -17,7 +17,7 @@ RenderSettings:
   m_Fog: 1
   m_FogColor: {r: 0.6039216, g: 0.6666667, b: 0.72156864, a: 0.93333334}
   m_FogMode: 3
-  m_FogDensity: 0.006
+  m_FogDensity: 0.005
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.25882354, g: 0.64705884, b: 0.8392157, a: 1}
@@ -3649,7 +3649,7 @@ Transform:
   m_GameObject: {fileID: 1449572822}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 40.80726, y: 11.99963, z: 110.23983}
+  m_LocalPosition: {x: 40.80726, y: 14.44, z: 110.23983}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3841,6 +3841,59 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 18330cc3c640eb24b8c54a9b5f2e5f22, type: 3}
   m_PrefabInstance: {fileID: 1506511238}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1563738484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1563738485}
+  - component: {fileID: 1563738486}
+  m_Layer: 0
+  m_Name: Mouettes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1563738485
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563738484}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 50.4, y: 18.9, z: 139}
+  m_LocalScale: {x: 0.5, y: 0.3, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1563738486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563738484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e1f2de6180c2e84eb84d32dbff514f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Mouettes
+  birdPrefab: {fileID: 7623336724680058607, guid: 5b4064a3ea7070244b1660a7a333942b, type: 3}
+  count: 8
+  sizeMultiplier: 1
+  zoneSize: {x: 600, y: 50, z: 600}
+  minSpeed: 4
+  maxSpeed: 7
+  turnSpeed: 45
+  maxBank: 30
+  maxTimeToTarget: 8
 --- !u!1001 &1594384790
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4432,3 +4485,4 @@ SceneRoots:
   - {fileID: 1912123112}
   - {fileID: 1089123865}
   - {fileID: 1449572824}
+  - {fileID: 1563738485}
