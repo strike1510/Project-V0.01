@@ -67,5 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "UnityProjects.slnx"
+    "dotnet.defaultSolution": "Project-V0.01.slnx"
 }
