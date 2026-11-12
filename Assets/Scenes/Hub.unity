@@ -2370,11 +2370,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 264972449}
   m_SourcePrefab: {fileID: 100100000, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
---- !u!4 &572388657 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1680501587, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-  m_PrefabInstance: {fileID: 572388656}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &572388658 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
@@ -8562,7 +8557,7 @@ PrefabInstance:
     - target: {fileID: 7463462689966568442, guid: bbbeb4365d0139b4d94da8ab46c82905, type: 3}
       propertyPath: tete
       value: 
-      objectReference: {fileID: 572388657}
+      objectReference: {fileID: 264972445}
     - target: {fileID: 7463462689966568442, guid: bbbeb4365d0139b4d94da8ab46c82905, type: 3}
       propertyPath: xrOrigin
       value: 
