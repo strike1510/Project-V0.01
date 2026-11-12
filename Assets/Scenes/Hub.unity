@@ -946,6 +946,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 438332, guid: 67833d6ba7c887d48933b3682ee1df40, type: 3}
   m_PrefabInstance: {fileID: 251023787}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &264972445 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1767192434, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+  m_PrefabInstance: {fileID: 572388656}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &270328527
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2421,6 +2426,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 587096208}
+  - component: {fileID: 587096209}
   m_Layer: 0
   m_Name: Ciel_Etoiles
   m_TagString: Untagged
@@ -2445,6 +2451,21 @@ Transform:
   - {fileID: 1829861873}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &587096209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587096207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d50334f794e1b84ba7d537aeaa2ca2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CielEtoilesSuiveur
+  cameraJoueur: {fileID: 264972445}
+  rotationNord: 0
+  decalageVertical: 0
 --- !u!1001 &588901979
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4486,7 +4507,7 @@ Transform:
   m_GameObject: {fileID: 976066236}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 38.88, y: 5.41, z: -161.19}
+  m_LocalPosition: {x: 0, y: 35, z: 40}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4780,8 +4801,8 @@ Transform:
   m_GameObject: {fileID: 1002240125}
   serializedVersion: 2
   m_LocalRotation: {x: -0.6644678, y: -0, z: -0, w: 0.74731696}
-  m_LocalPosition: {x: 47.4, y: 53.2, z: 7.5}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalPosition: {x: 44, y: 393, z: 604}
+  m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1598067400}
@@ -5179,7 +5200,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CycleJourNuit
   soleil: {fileID: 203844588}
   dureeJournee: 300
-  heureDepart: 24
+  heureDepart: 2.7
   inclinaisonNordSud: 20
   intensiteJour: 1.2
   courbeIntensite:
@@ -5274,6 +5295,7 @@ MonoBehaviour:
     m_NumAlphaKeys: 2
   ambianceJour: {r: 0.6, g: 0.7, b: 0.9, a: 1}
   ambianceNuit: {r: 0.03, g: 0.04, b: 0.09, a: 1}
+  cielEtoiles: {fileID: 587096208}
 --- !u!4 &1238661370
 Transform:
   m_ObjectHideFlags: 0
@@ -8356,6 +8378,14 @@ PrefabInstance:
       propertyPath: xrOrigin
       value: 
       objectReference: {fileID: 572388658}
+    - target: {fileID: 7463462689966568442, guid: bbbeb4365d0139b4d94da8ab46c82905, type: 3}
+      propertyPath: vitesseMax
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463462689966568442, guid: bbbeb4365d0139b4d94da8ab46c82905, type: 3}
+      propertyPath: vitesseRotation
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7754836689853386914, guid: bbbeb4365d0139b4d94da8ab46c82905, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
