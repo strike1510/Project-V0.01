@@ -82,8 +82,15 @@ public class Ordre : MonoBehaviour
 
     bool EstSurBateau()
     {
-        if (!zonePont || !xrOrigin) return false;
-        Vector3 p = zonePont.transform.InverseTransformPoint(xrOrigin.position) - zonePont.center;
+        if (!zonePont || (!tete && !xrOrigin)) return false;
+
+        // On teste la position de la tête (projetée à hauteur du sol du rig) plutôt que celle du XR Origin :
+        // quand le joueur marche physiquement (ou avec le simulateur ZQSD/WASD), seule la caméra bouge,
+        // le XR Origin reste sur place.
+        Vector3 joueur = tete ? tete.position : xrOrigin.position;
+        if (tete && xrOrigin) joueur.y = xrOrigin.position.y;
+
+        Vector3 p = zonePont.transform.InverseTransformPoint(joueur) - zonePont.center;
         Vector3 h = zonePont.size * 0.5f;
         return Mathf.Abs(p.x) <= h.x && Mathf.Abs(p.y) <= h.y && Mathf.Abs(p.z) <= h.z;
     }

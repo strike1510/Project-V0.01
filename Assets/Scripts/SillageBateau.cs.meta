@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a1d670b8dcef47b9a0ed5f4b9f9aca94
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - eau: {instanceID: 0}
+  - materiauEcume: {fileID: 2100000, guid: b7afaf64d9244d14883221981aca3753, type: 2}
+  - sonEau: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
