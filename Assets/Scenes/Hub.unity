@@ -30764,6 +30764,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6892771397721308593, guid: bbbeb4365d0139b4d94da8ab46c82905, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3a05e2b9ba8d554448e55b5b48fe31ac, type: 2}
     - target: {fileID: 7463462689966568442, guid: bbbeb4365d0139b4d94da8ab46c82905, type: 3}
       propertyPath: tete
       value: 
