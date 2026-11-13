@@ -1,0 +1,10 @@
+[Log] [Drakkar] Cycle jour/nuit : 9 étoiles, 8 éléments de ciel teintés, skybox = Skybox/Procedural
+
+[Log] [Test] apres Avancer 2.5s : deplacement 7,68 m, manoeuvre Avancer, vitesse 0,88
+
+[Log] [Test] apres virage : deplacement total 41,87 m, cap (0.19, 0.00, 0.98)
+
+[Log] [Test] nuit = 1,00, heure = 23,6, ambiance = RGBA(0.030, 0.040, 0.090, 1.000)
+
+[Log] [Test] terrain Island details: proto=1 res=240 dist=35 draw=True
+
