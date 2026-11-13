@@ -9247,7 +9247,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CycleJourNuit
   soleil: {fileID: 203844588}
   dureeJournee: 360
-  heureDepart: 13
+  heureDepart: 5.9
   inclinaisonNordSud: 20
   intensiteJour: 1.2
   courbeIntensite:
