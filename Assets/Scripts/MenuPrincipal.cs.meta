@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 53f93bc43b804b31baaaa53c36969982
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - logo: {instanceID: 0}
+  - cadreRunes: {fileID: 21300000, guid: e482ae4b17ca4e0e9ec9c3fca406ced7, type: 3}
+  - policeTitre: {instanceID: 0}
+  - policeTexte: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
