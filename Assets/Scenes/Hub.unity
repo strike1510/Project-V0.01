@@ -30869,7 +30869,7 @@ PrefabInstance:
       objectReference: {fileID: 572388658}
     - target: {fileID: 7463462689966568442, guid: bbbeb4365d0139b4d94da8ab46c82905, type: 3}
       propertyPath: vitesseMax
-      value: 7
+      value: 2.2
       objectReference: {fileID: 0}
     - target: {fileID: 7463462689966568442, guid: bbbeb4365d0139b4d94da8ab46c82905, type: 3}
       propertyPath: destination
@@ -30881,7 +30881,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7463462689966568442, guid: bbbeb4365d0139b4d94da8ab46c82905, type: 3}
       propertyPath: vitesseRotation
-      value: 7
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7463462689966568442, guid: bbbeb4365d0139b4d94da8ab46c82905, type: 3}
       propertyPath: accelerationRotation
